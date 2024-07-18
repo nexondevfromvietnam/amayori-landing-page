@@ -114,13 +114,6 @@ body{
     border-radius: 50%;
 }
 
-.footer{
-    background-image: url(../img/bg.jpg);
-    filter: blur(1.4em);
-    height: 25vh;
-    width: 100vw;
-    font-family: "Open Sans", sans-serif;
-}
 #footerContent{
     top: 5vh;
     margin-left: 5vh;
@@ -148,4 +141,37 @@ body{
 }
 img{
     border: 5px solid black;
+}
+
+#ptg-ex{
+    text-align: center;
+    background-image: url('../img/bg3.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(0);
+    transition: 1s ease;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.imgOverflow{
+    transition: 0.5s;
+}
+.imgOverflow:hover{
+    filter: brightness(50%);
+}
+.overflowBtn{
+    width: 18vw;
+    z-index: 7777;
+}
+footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
+}
+.ft{
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
 }

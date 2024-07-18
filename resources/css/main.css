@@ -136,17 +136,6 @@ body{
     border-radius: 50%;
 }
 
-.footer{
-    background-image: url(../img/amayori_bg.jpg);
-    filter: blur(1.4em);
-    height: 25vh;
-    width: 100vw;
-    font-family: "Open Sans", sans-serif;
-}
-#footerContent{
-    top: 5vh;
-    margin-left: 5vh;
-}
 .aLink:active, .aLink:visited, .aLink:hover{
     color: white;
     text-decoration: none;
