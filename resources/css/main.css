@@ -65,7 +65,7 @@ body{
 .textCenter{
     text-align: center;
 }
-.backgroundVisible{
+#backgroundVisible{
     background-image: url(../img/amayori_bg.jpg);
     background-size: cover;
     background-position: bottom;
@@ -241,4 +241,11 @@ a{
 .preload.unactive{
     opacity: 0;
     pointer-events: none;
+}
+.bot-left-area{
+    position: absolute;
+    top: 97vh;
+}
+#bot-left-area-btn{
+    font-size: 8px;
 }
